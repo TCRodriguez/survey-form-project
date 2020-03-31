@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+
+    <title>Survey Project</title>
+</head>
+<body>
+    <div class="container" id="survey-body">
+        <div id="intro-text">
+            <h1 id="title">How can we help your business?</h1>
+            <p><em>Tell us about your business and your current challenges/pain points and we'll respond with a brief overview of the web solutions we can provide.</em></p>
+        </div>
+        <form action="" id="survey-form">
+            <div id="first-name-input" class="input-block text-center">
+                <label for="name" id="name-label">First Name</label>
+                <input type="text" placeholder="First Name" id="name">
+            </div>
+            <div id="last-name-input" class="input-block">
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Last Name" id="last-name">
+            </div>
+            <div class="input-block">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" placeholder="Email" id="email">
+            </div>
+            <div class="input-block">
+                <label for="business-name">Business Name</label>
+                <input type="text" placeholder="Business Name" id="business-name">
+            </div>
+            <div class="input-block">
+                <label for="industry">Industry</label>
+                <input type="text" placeholder="Industry" id="industry">
+            </div>
+            <div class="input-block">
+                <label for="problem-category">Which of the following categories does your current problem fall into?</label>
+                <select name="problem-category" id="dropdown">
+                    <option value="staff-communication">Staff Communication</option>
+                    <option value="customer-communication">Customer Communication</option>
+                    <option value="online-ordering-delivering">Online Ordering/Delivering</option>
+                    <option value="payroll">Payroll</option>
+                    <option value="info-storage">Information storage (database)</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-block">
+                <textarea name="problem-description" id="text-area" cols="30" rows="10" placeholder="Describe the problem in further detail..."></textarea>
+            </div>
+            <div>
+                <label id="number-label">On a scale from 1 to 10 with 10 being very urgent, how would you rate your problem?</label>
+                <input type="number" name="urgency" id="number" min="1" max="10">
+            </div>
+
+            <div class="input-block">
+                <p>What technologies are currently used?</p>
+                <label>
+                    <input type="checkbox" id="">HTML/CSS
+                </label>
+                <label>
+                    <input type="checkbox" id="">Javascript
+                </label>
+                <label>
+                    <input type="checkbox" id="">jQuery
+                </label>
+                <label>
+                    <input type="checkbox" id="">PostgreSQL
+                </label>
+                <label>
+                    <input type="checkbox" id="">Express
+                </label>
+                <label>
+                    <input type="checkbox" id="">React
+                </label>
+                <label>
+                    <input type="checkbox" id="">Node.js
+                </label>
+                <label>
+                    <input type="checkbox" id="">Other
+                </label>
+            </div>
+
+            <div class="input-block">
+                <p>Have you worked with a web developer in the past?</p>
+                <label>
+                    <input type="radio" name="yes-no" id="" value="yes" checked> Yes
+                </label>
+                <label>
+                    <input type="radio" name="yes-no" id="" value="no">  No
+                </label>
+            </div>
+
+
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
