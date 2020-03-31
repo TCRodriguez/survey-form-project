@@ -4,7 +4,7 @@
 
 
 
-This form is set to capture pertinent information on a particular pain points for businesses. That information will
+This form is set to capture pertinent information on particular pain points for businesses. That information will
 then be worked through and developed into a solution(s).
 
 
